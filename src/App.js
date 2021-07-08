@@ -1,24 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> Salve
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>{props.title} {props.user}</h1>
+      <input name="user" id="user" className="userInput" placeholder="User"/>
+      <button type="button">Search</button>
+    </>
+
+  
   );
 }
 
