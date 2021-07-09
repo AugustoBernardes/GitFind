@@ -1,14 +1,12 @@
-import './App.css';
+import './App.css' ;
+import React from 'react';
+import Routes from './routes'
 
-function App(props) {
+
+function App() {
+
   return (
-    <>
-      <h1>{props.title} {props.user}</h1>
-      <input name="user" id="user" className="userInput" placeholder="User"/>
-      <button type="button">Search</button>
-    </>
-
-  
+    <Routes/>
   );
 }
 
