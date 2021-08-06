@@ -18,3 +18,8 @@ To check how it work just follow the link [Link](https://findinguser.netlify.app
   # And axios
   $ npm install axios
 ```
+
+# Design
+
+![fistImage](design/design1.png)
+![secondImage](design/design2.png)
